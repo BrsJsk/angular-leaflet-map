@@ -30,9 +30,7 @@ export class LeafletMapComponent implements AfterViewInit {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this.map);
 
-    setTimeout(() => {
       this.addMarkers()
-    }, 1000)
   }
 
   addMarkers() {
